@@ -14,6 +14,8 @@
 		E30F2A4B249CAC2800A534C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30F2A4A249CAC2800A534C3 /* Assets.xcassets */; };
 		E30F2A4E249CAC2800A534C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30F2A4C249CAC2800A534C3 /* LaunchScreen.storyboard */; };
 		E30F2A76249CD2EF00A534C3 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30F2A75249CD2EF00A534C3 /* String.swift */; };
+		E3480CD924BCF4A8007B7D19 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E3480CD824BCF4A8007B7D19 /* README.md */; };
+		E3480CDB24BCF522007B7D19 /* add1.gif in Resources */ = {isa = PBXBuildFile; fileRef = E3480CDA24BCF522007B7D19 /* add1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		E30F2A4F249CAC2800A534C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E30F2A73249CBE5100A534C3 /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HVD_Comic_Serif_Pro.otf; sourceTree = "<group>"; };
 		E30F2A75249CD2EF00A534C3 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		E3480CD824BCF4A8007B7D19 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E3480CDA24BCF522007B7D19 /* add1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = add1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 		E30F2A35249CAC2200A534C3 = {
 			isa = PBXGroup;
 			children = (
+				E3480CD824BCF4A8007B7D19 /* README.md */,
+				E3480CDA24BCF522007B7D19 /* add1.gif */,
 				E30F2A40249CAC2200A534C3 /* Add 1 */,
 				E30F2A3F249CAC2200A534C3 /* Products */,
 			);
@@ -59,15 +65,12 @@
 		E30F2A40249CAC2200A534C3 /* Add 1 */ = {
 			isa = PBXGroup;
 			children = (
+				E3480CD624BCF340007B7D19 /* Resources */,
+				E3480CD524BCF32F007B7D19 /* Controllers */,
 				E30F2A74249CD2DE00A534C3 /* Extensions */,
 				E30F2A41249CAC2200A534C3 /* AppDelegate.swift */,
 				E30F2A43249CAC2200A534C3 /* SceneDelegate.swift */,
-				E30F2A45249CAC2200A534C3 /* GameViewController.swift */,
-				E30F2A47249CAC2200A534C3 /* Main.storyboard */,
-				E30F2A4A249CAC2800A534C3 /* Assets.xcassets */,
 				E30F2A73249CBE5100A534C3 /* HVD_Comic_Serif_Pro.otf */,
-				E30F2A4C249CAC2800A534C3 /* LaunchScreen.storyboard */,
-				E30F2A4F249CAC2800A534C3 /* Info.plist */,
 			);
 			path = "Add 1";
 			sourceTree = "<group>";
@@ -78,6 +81,25 @@
 				E30F2A75249CD2EF00A534C3 /* String.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E3480CD524BCF32F007B7D19 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E30F2A45249CAC2200A534C3 /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E3480CD624BCF340007B7D19 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E30F2A4C249CAC2800A534C3 /* LaunchScreen.storyboard */,
+				E30F2A4A249CAC2800A534C3 /* Assets.xcassets */,
+				E30F2A47249CAC2200A534C3 /* Main.storyboard */,
+				E30F2A4F249CAC2800A534C3 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +162,8 @@
 			files = (
 				E30F2A4E249CAC2800A534C3 /* LaunchScreen.storyboard in Resources */,
 				E30F2A4B249CAC2800A534C3 /* Assets.xcassets in Resources */,
+				E3480CDB24BCF522007B7D19 /* add1.gif in Resources */,
+				E3480CD924BCF4A8007B7D19 /* README.md in Resources */,
 				E30F2A49249CAC2200A534C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PYAHU7CY6;
-				INFOPLIST_FILE = "Add 1/Info.plist";
+				INFOPLIST_FILE = "Add 1/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PYAHU7CY6;
-				INFOPLIST_FILE = "Add 1/Info.plist";
+				INFOPLIST_FILE = "Add 1/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
